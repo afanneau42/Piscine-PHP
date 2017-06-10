@@ -19,18 +19,27 @@ body {
 }
 
 .box_left {
-    width: 150px;
-    height: 550px;
+    
+    width: 130px;
+    height: 450px;
     padding: 10px;
     margin-left: 250px;
     margin-top: 20px;
 }
 
 .box_middle {
-    width: 150px;
-    height: 550px;
+    width: 1025px;
+    height: 577px;
     padding: 10px;
-    margin-left: 550px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.box_right {
+    width: 130px;
+    height: 450px;
+    padding: 10px;
+    margin-left: 40px;
     margin-top: 20px;
 }
 
@@ -53,7 +62,7 @@ body {
 #loupe {
     position: absolute;
     left: 78%;
-    top: 10px;
+    top: 5px;
 }
 
 .pic_left {
@@ -62,3 +71,37 @@ body {
     margin: 5px;
 }
 
+.box_bot{
+    position: relative;
+    background-color: rgb(145,255,145);
+    width: 580px;
+    height: 175px;
+    margin-left: 130px;
+    bottom: 85px;
+    padding: 10px;
+}
+
+#text {
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#txt {
+    width: 425px;
+}
+
+#chair {
+    position: relative;
+    bottom: 320px;
+    left: 625px;
+    width: 150px;
+    height: 200px;
+}
+
+#mac {
+    position: relative;
+    bottom: 530px;
+    left: 1125px;
+    width: 180px;
+    height: 180px;
+}
