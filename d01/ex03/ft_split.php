@@ -7,5 +7,4 @@ function ft_split($str)
         sort($arr);
     return $arr;
 }
-
 ?>
